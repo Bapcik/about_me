@@ -1,0 +1,89 @@
+body {
+  font-family: "Crimson Text", serif;
+  background-color: #fffdfa;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.active {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.img-logo-ts {
+  width: 40px;
+  height: 40px;
+}
+
+.header {
+  margin: 0 0 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-programmer {
+  margin: 12px 0 10px 0;
+}
+.header-info {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+  justify-content: center;
+}
+li {
+  margin: 0 10px 0 10px;
+  list-style: none;
+}
+
+.two-active {
+  padding: 0 15px 0 15px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.line {
+  margin: 50px 0 0 0;
+}
+.line::after {
+  content: "";
+  display: block;
+  height: 0.5px;
+  background-color: #88888881;
+}
+
+.footer {
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-text-footer {
+  margin: 0 0 10px;
+}
+
+.link-element {
+  margin: 0 8px 0 0;
+}
+
+.text-end {
+  color: rgba(128, 128, 128, 0.467);
+}

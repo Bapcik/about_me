@@ -1,0 +1,33 @@
+.title-about {
+  font-size: 42px;
+}
+
+.info-container-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-img {
+  width: 491px;
+  height: 331px;
+}
+
+.info-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-item {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text-info-about {
+  text-align: left;
+}
+
+.title-info {
+  font-size: 26px;
+}
